@@ -1,4 +1,4 @@
-require_relative "../config/environment.rb"
+  require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
 class Song
@@ -58,7 +58,6 @@ class Song
     DB[:conn].execute(sql)
   end
 
+  ##
+
 end
-
-
-
